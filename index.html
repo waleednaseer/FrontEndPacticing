@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="SignUpStyle.css" />
     <title>SignUpPage</title>
   </head>
@@ -13,7 +18,7 @@
       <div class="signUp">
         <div class="left-content">
           <div class="h-1">
-            <span style="margin-left: 145px">01</span>
+            <!-- <span style="margin-left: 145px">01</span>
             <span
               ><progress
                 id="file"
@@ -32,7 +37,57 @@
                 <option value="English">English</option>
                 <option value="Urdu">Urdu</option>
               </select>
-            </span>
+            </span> -->
+            <div
+              style="
+                width: 100%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+              "
+            >
+              <div style="width: 50%; height: 40px">
+                <!-- 01 <span style="width: 45px; height: 3px; background-color: brown; display: inline-block; margin-bottom: 3px;"></span>
+                  Personal Details -->
+                <div
+                  style="
+                    display: flex;
+                    justify-content: end;
+                    align-items: center;
+                    height: 40px;
+                  "
+                >
+                  01
+                  <span
+                    style="
+                      width: 40px;
+                      height: 2px;
+                      background-color: rgb(107, 46, 2);
+                    "
+                  ></span>
+                  Personal Details
+                </div>
+              </div>
+              <div style="width: 50%; height: 40px">
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 40px;
+                  "
+                >
+                  <select
+                    name="lang"
+                    id="drpdwn"
+                    style="width: 150px; height: 30px; background-color: white"
+                  >
+                    <option value="English">English</option>
+                    <option value="Urdu">Urdu</option>
+                  </select>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="h-2">
             <div class="content">
@@ -41,6 +96,14 @@
                 Free Forever No credit card needed
               </p>
             </div>
+            <div
+              style="
+                width: 10px;
+                height: 11px;
+                border: 4px solid rgb(210, 224, 5);
+                border-radius: 20px;
+              "
+            ></div>
           </div>
           <div class="h-3">
             <div class="">
@@ -105,34 +168,108 @@
               />
             </div>
             <div class="labels">
-              <p style="font-size: 14px; ">
+              <p style="font-size: 14px">
                 <input type="checkbox" placeholder="Phone Number" />
                 By adding here you agree with terms and condition
               </p>
             </div>
           </div>
           <div class="h-4">
-               <div class="content-4">
-                   <div>
-                <a href="#" style="background-color: rgb(87, 162, 248); padding: 6px; border-radius: 25px;color: white;text-decoration: none;"> Create my Account</a>
+            <!-- <div class="content-4">
+              <div>
+                <a
+                  href="#"
+                  style="
+                    background-color: rgb(87, 162, 248);
+                    padding: 6px;
+                    border-radius: 25px;
+                    color: white;
+                    text-decoration: none;
+                  "
+                >
+                  Create my Account</a
+                >
+              </div>
+              <div>or</div>
+              <span style="color: blue"><i class="fab fa-google"></i></span>
+              <span style="color: blue"><i class="fab fa-facebook"></i></span>
+            </div> -->
+            <div style="width: 61%; height: 48px; margin: auto">
+              <div
+                style="
+                  display: flex;
+                  height: 50px;
+                  justify-content: space-evenly;
+                  align-items: center;
+                "
+              >
+                <a href="" class="link">Create My Account</a>
+                <div style="color: rgb(192, 189, 189)">or</div>
+                <div
+                  style="
+                    display: flex;
+                    width: 62px;
+                    height: 30px;
+                    justify-content: space-between;
+                    align-items: center;
+                  "
+                >
+                  <span style="color: blue"><i class="fab fa-google"></i></span>
+                  <span style="color: blue"
+                    ><i class="fab fa-facebook"></i
+                  ></span>
                 </div>
-                   <div>or</div>
-                   <span style="color: blue;"><i class="fab fa-google"></i></span>
-                   <span style="color: blue;"><i class="fab fa-facebook"></i></span>
-               </div>
+              </div>
+            </div>
+          </div>
+          <div class="h-5" style="width: 280px; height: 40px;">
+            <div style="
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            height: 40px;
+          ">
+          <span style="
+              width: 75px;
+              height: 2px;
+              background-color: rgb(107, 46, 2);
+            "></span>
+          LOGIN
+        </div>
           </div>
         </div>
         <div class="center">
-            <div class="flex">
+          <!-- <div class="flex">
                   <div><input type="radio" checked></div>
                   <div class="line" style="border-left: 2px solid green;height: 30px; margin-left: 5px;"></div>
                   <div class="dot"></div>
                   <div class="line" style="border-left: 2px solid green;height: 30px;margin-left: 5px;"></div>
                   <div class="dot"></div>
-            </div>
+            </div> -->
+          <div class="content">
+            <div style="padding-top: 15px"><input type="radio" checked /></div>
+            <div
+              class="line"
+              style="
+                border-left: 2px solid green;
+                height: 30px;
+                margin-left: 17px;
+              "
+            ></div>
+            <div class="dot"></div>
+            <div
+              class="line"
+              style="
+                border-left: 2px solid green;
+                height: 30px;
+                margin-left: 17px;
+              "
+            ></div>
+            <div class="dot"></div>
+          </div>
         </div>
         <div class="right-content">
-            <div>
+          <!-- <div>
                 <img src="blue.jpg" alt="" style="width: 40vw; height: 66vh; opacity: 20px;">
             </div>
             <div class="right-text">
@@ -147,13 +284,27 @@
                                         
                                     </pre>
                                        
+            </div> -->
+
+          <div class="img">
+            <div
+              style="
+                width: 100%;
+                height: 500px;
+                display: flex;
+                justify-content: center;
+                align-items: end;
+              "
+            >
+              <div style="width: 37%; height: 200px; font-size: 1.3vw;color: white;">
+                "We are designing for global base We are designing for global
+                base We are designing for global base"
+              </div>
+              
             </div>
-            
+          </div>
         </div>
-       
       </div>
-     
     </div>
-    
   </body>
 </html>
