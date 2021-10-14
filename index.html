@@ -106,8 +106,8 @@
             ></div>
           </div>
           <div class="h-3">
-            <div class="">
-              <input
+            <div style="position: relative;">
+              <!-- <input
                 type="text"
                 placeholder="Full Name"
                 style="
@@ -116,19 +116,21 @@
                   border: none;
                   border-radius: 3px;
                 "
-              />
-            </div>
-            <div class="labels">
+              /> -->
               <input
-                type="email"
-                placeholder="Email"
-                style="
-                  width: 300px;
-                  height: 45px;
-                  border: none;
-                  border-radius: 3px;
-                "
-              />
+    class="inputText"
+      type="text"
+      required
+    />
+    <span class="floating-label">Full Name</span>
+            </div >
+            <div class="labels" style="position: relative;">
+                <input
+                class="inputText"
+                  type="email"
+                  required
+                />
+                <span class="floating-label">Email Address</span>
             </div>
             <div class="labels">
               <input
@@ -143,17 +145,13 @@
               />
             </div>
 
-            <div class="labels">
-              <input
-                type="text"
-                placeholder="Phone Number"
-                style="
-                  width: 300px;
-                  height: 45px;
-                  border: none;
-                  border-radius: 3px;
-                "
-              />
+            <div class="labels" style="position: relative;">
+                <input
+                class="inputText"
+                  type="text"
+                  required
+                />
+                <span class="floating-label">Phone Number</span>
             </div>
             <div class="labels">
               <input
